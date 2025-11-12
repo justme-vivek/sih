@@ -152,5 +152,5 @@ Contributions are welcome! Please fork the repo and submit a pull request.
 ---
 
 ## 📜 License
-MIT License © 2025 Ansh Mishra
+MIT License © 2025 Vivek Mishra
 #
