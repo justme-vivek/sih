@@ -1,45 +1,37 @@
 # ===========================
 # DeepSea eDNA AI Pipeline
-# Streamlit Deployment Requirements
+# Streamlit Deployment (Fixed for Python 3.13)
 # ===========================
 
-# Core Python Libraries
-numpy==1.26.4
-pandas==2.2.3
-scipy==1.13.1
-tqdm==4.66.5
+# Core
+numpy>=1.26
+pandas>=2.2
+scipy>=1.14
+tqdm>=4.66
 
 # Machine Learning / AI
-torch==2.3.1
-transformers==4.44.2
-scikit-learn==1.5.2
-umap-learn==0.5.6
-hdbscan==0.8.36
-faiss-cpu==1.8.0.post1
+torch>=2.5.1
+transformers>=4.45
+scikit-learn>=1.5
+umap-learn>=0.5
+hdbscan>=0.8
+faiss-cpu>=1.8.0
 
 # Bioinformatics
-biopython==1.84
-requests==2.32.3
+biopython>=1.84
+requests>=2.32
 
 # Visualization
-plotly==5.24.1
-matplotlib==3.9.2
-seaborn==0.13.2
+plotly>=5.24
+matplotlib>=3.9
+seaborn>=0.13
 
-# Dashboard / Web App
-streamlit==1.39.0
-openpyxl==3.1.5
+# Dashboard
+streamlit>=1.39
+openpyxl>=3.1
 
-# Utilities / Data Export
-zipfile36==0.1.3
-
-# System & Config
-psutil==6.1.0
-pyyaml==6.0.2
-joblib==1.4.2
-
-# ===========================
-# External Tools (install manually):
-#   MAFFT → sudo apt-get install mafft
-#   NCBI BLAST+ → sudo apt-get install ncbi-blast+
-# ===========================
+# Utilities
+zipfile36>=0.1.3
+psutil>=6.0
+pyyaml>=6.0
+joblib>=1.4
