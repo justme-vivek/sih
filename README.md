@@ -56,8 +56,8 @@ deepsea_edna/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/deepsea_edna.git
-cd deepsea_edna
+git clone https://github.com/justme-vivek/sih
+cd sih
 ```
 
 ### 2. Create a Conda environment
